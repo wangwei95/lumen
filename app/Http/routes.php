@@ -12,5 +12,6 @@
 */
 
 $app->get('/', function () use ($app) {
+    echo 23234;
     return $app->version();
 });
