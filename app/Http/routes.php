@@ -12,7 +12,5 @@
 */
 
 $app->get('/', function () use ($app) {
-    echo 23234;
-    echo "awdfas";
     return $app->version();
 });
